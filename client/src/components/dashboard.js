@@ -4,17 +4,17 @@ import { alpha } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
-import AppNavbar from './AppNavbar';
-import Header from './Header';
-import MainGrid from './MainGrid';
-import SideMenu from './SideMenu';
-import AppTheme from './AppTheme';
+import AppNavbar from './components/AppNavbar';
+import Header from './components/Header';
+import MainGrid from './components/MainGrid';
+import SideMenu from './components/SideMenu';
+import AppTheme from './components/AppTheme';
 import {
   chartsCustomizations,
   dataGridCustomizations,
   datePickersCustomizations,
   treeViewCustomizations,
-} from './theme/customizations';
+} from './theme/';
 
 const xThemeComponents = {
   ...chartsCustomizations,
